@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root {
+    --dark-color: #000F08;
+    --white-color: #ffffff;
+    --brick-color: #A4452C;
+}   
+
+body {
+    text-align: center;
+    color: var(--dark-color);
+    font-family: "Open Sans", sans-serif;
+}
+
+nav {
+    background-color: var(--dark-color);
+    color: var(--white-color);
+    text-align: left;
+    padding: 20px 0px 20px 150px;
+}
+
+nav li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+
+nav li a {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+header {
+    background-image: url("../img/bg-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    padding: 60px;
+    color: var(--white-color);
+    text-shadow: 0px 3px 6px var(--dark-color);
+
+    h1 {
+        font-size: 50px;
+        font-weight: 900;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+}
+
+.seccion01 {
+    padding: 100px;
+}
+
+.seccion01 img {
+    width: 40%;
+    height: 40%;
+}
+
+.seccion01 h2 {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.seccion01 p {
+    font-size: 20px;
+}
+
+.seccion02 {
+    background: var(--brick-color);
+    padding: 100px;
+    color: var(--white-color)
+}
+
+.seccion02 img {
+    width: 250px;
+}
+
+.seccion02 img, .texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.seccion02 .texto {
+    text-align: left;
+    padding-left: 30px;
+    width: 50%;
+
+    h3 {
+        font-size: 45px;
+        padding-bottom: 8px;
+    }
+
+    h4 {
+        font-size: 40px;
+    }
+
+    h6 {
+        font-size: 33px;
+    }
+
+    p {
+        font-size: 25px;
+        letter-spacing: 0.5px
+    };
+
+    span {
+        font-size: 15px;
+    }
+
+    h6, span, p {
+        font-weight: 400;
+    }
+}
+
+.seccion03 {
+    padding: 100px 0px 100px 0px;
+}
+
+.seccion03 h2 {
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+.seccion03 h3 {
+    margin-top: 20px;
+}
+
+.seccion03 img {
+    width: 70%;
+}
+
+.seccion03 article {
+    display: inline-block;
+}
+
+.seccion03 a {
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
+footer {
+    background-color: var(--dark-color);
+    color: var(--white-color);
+    padding: 100px;
+    font-size: 25px;
+}
+
+footer a {
+    color: var(--white-color);
+    text-decoration: none;
+    margin: 20px;
+
+}
+
+footer p {
+    margin-top: 40px;
+    margin-bottom: -90px;
+}
+
+/* estilos.css */
+/* Pagina evento01.html */
+
+.simposio-vegan {
+    width: 1085px;
+    margin: 40px auto;
+    text-align: left;
+    } 
+
+.simposio-vegan img {
+    width: 100%;
+    height: 565px;
+    margin: 5px 0;
+    } 
+
+.simposio-vegan h1 {
+    font-size: 45px;
+    } 
+
+.simposio-vegan h2 {
+    font-size: 40px;
+    } 
+
+ .simposio-vegan p {
+    margin: 30px 0;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #000F08;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
